@@ -1,0 +1,40 @@
+JavaScript Structure
+
+game {
+    score - int
+    currentGame - array
+    playerMoves - array
+    choices - array
+}
+
+newGame(
+    Reset the score to zero
+    Clear the playerMoves array
+    Clear the currentGame array
+)
+
+showScore(
+    show score in html
+)
+
+addTurn(
+    Clear the playerMoves array
+    Randomly add a button ID to the currentGame array
+    Call showTurns() function
+)
+
+lightsOn(
+    Add 'light' class to the button
+)
+
+showTurns(
+    Step through currentGame array
+    Turn on the light
+    Turn off the light
+)
+
+playerTurn(
+    Check if the player move matches the computer move
+    If we are at the end of the sequence then increment the add another Turn
+    If the moves do not match then display an alert and start a new game
+)

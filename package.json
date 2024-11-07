@@ -1,0 +1,22 @@
+{
+  "name": "jest2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebZG/jest2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebZG/jest2/issues"
+  },
+  "homepage": "https://github.com/SebZG/jest2#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
